@@ -40,3 +40,6 @@ nnoremap <C-H> <C-W><C-H>
 set splitright
 
 set tabpagemax=100
+
+autocmd BufNewFile,BufRead *.blade.php set syntax=html
+autocmd BufNewFile,BufRead *.blade.php set filetype=html
